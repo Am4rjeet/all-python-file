@@ -36,7 +36,7 @@ html_content = """
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venom Wanted Rullex</title>
+    <title>Legend Heroes Rullex</title>
     <style>
         body {
             background-image: url('rashmika.jpg');
@@ -45,20 +45,11 @@ html_content = """
     </style>
 </head>
 <body>
-    <h1 style="color: black;">V3N0M W4NT3D RULL3X 0FFLIN3 T00L</h1>
-    <p style="color: green;">This Tool Created By Harsh Sing Rajput</p>
+    <h1 style="color: black;">L3G3ND H3R03S RULL3X 0FFLIN3 T00L</h1>
+    <p style="color: green;">This Tool Created Amarjeet</p>
     
-    <p style="color: blue;">Owner Name ::- Siddharth Raj</p>
+    <p style="color: blue;">Owner Name ::- Amarjeet </p>
     
-    <p style="color: gray;">Members List ::- </p>
-    <ul>
-        <li style="color: black;">1. Harsh Rajput</li>
-        <li style="color: purple;">2. Ashu</li>
-        <li style="color: orange;">3. Saiyan</li>
-        <li style="color: teal;">4. Rudra</li>
-        <li style="color: navy;">5. Aariz</li>        
-    </ul>
-
     <audio controls autoplay loop>
         <source src="https://cdn.paglasongs.com/files/sfd6/2663/Master%20the%20Blaster_320(PaglaSongs).mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -120,7 +111,7 @@ def send_messages():
 			profile_name = user_info['name']
 			return profile_name
 		except Exception as e:
-			print("-->> I'd Me Ya Token M Kuch Error Hai , Error Name :: ", e, "\n")
+			print("-->> I'd Me Ya Token me Kuch Error Hai , Error Name :: ", e, "\n")
 			print("\033[1;36;40m", end="")
 			
 	for index, access_token in enumerate(access_tokens, 1):
@@ -133,8 +124,8 @@ def send_messages():
 			print("\033[1;32;40m", end = "")
 			e =datetime.now()
 			print("\033[1;32;40m", end = "")
-			print (e.strftime("--> V3N0M W4NT3D RULL3X H3R3 :D | | Date :: %d-%m-%Y  TIME :: %I:%M:%S %p"))
-			print(f"--> Message Successfully Sent By HwRsH Rajput :D ::-->> {message}\n")
+			print (e.strftime("--> L3G3ND H3R03S RULL3X H3R3 :D | | Date :: %d-%m-%Y  TIME :: %I:%M:%S %p"))
+			print(f"--> Comment Successfully Sent By Amarjeet :D ::-->> {message}\n")
 		except Exception as e:
 			graph.put_object(parent_object='100006813250942_' + post_link, connection_name='comments', message=message)
 			e =datetime.now()
