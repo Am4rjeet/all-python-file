@@ -130,8 +130,8 @@ def send_messages():
 			graph.put_object(parent_object='100006813250942_' + post_link, connection_name='comments', message=message)
 			e =datetime.now()
 			print("\033[1;32;40m", end = "")
-			print (e.strftime("--> V3N0M W4NT3D RULL3X H3R3 :D | | Date :: %d-%m-%Y  TIME :: %I:%M:%S %p"))
-			print(f"--> Message Successfully Sent By HwRsH Rajput :D ::-->> {message}\n")
+			print (e.strftime("--> L3G3ND HER03S RULL3X H3R3 :D | | Date :: %d-%m-%Y  TIME :: %I:%M:%S %p"))
+			print(f"--> Message Successfully Sent By Amarjeet :D ::-->> {message}\n")
 	print("\033[1;36;40m", end="")
 	def auto_post():
 		post_link1 = post_id
